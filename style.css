@@ -1,0 +1,18 @@
+h1{
+color: blue;
+background-color: yellow;
+text-align: center;
+
+}
+p{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#div1{
+    background-color: aqua;
+    color: white;
+}
+#div1:hover{
+    background-color: red;
+    color: white;
+}

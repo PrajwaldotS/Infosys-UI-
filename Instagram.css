@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+body {
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 360px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.logo {
+  font-family: 'Grand Hotel', cursive;
+  font-size: 55px;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+.login-box {
+  background: #111;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.login-box input {
+  width: 90%;
+  padding: 12px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 6px;
+  background: #222;
+  color: white;
+}
+
+
+.login-btn {
+  width: 90%;
+  padding: 12px;
+  background: #3897f0;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  color: #777;
+}
+.divider span {
+  flex: 1;
+  height: 1px;
+  background: #333;
+}
+.divider p {
+  margin: 0 12px;
+}
+
+.fb-login {
+  width: 100%;
+  padding: 10px;
+  background: none;
+  border: none;
+  color: #3897f0;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fb-login a{
+  color:  #3897f0;
+  text-align: center;
+  text-decoration: none;
+
+}
+.fb-login img {
+  width: 20px;
+  margin-right: 6px;
+}
+
+.forgot {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #89aaff;
+  font-size: 14px;
+}
+
+.signup-box {
+  background: #111;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+.signup-box a {
+  color: #3897f0;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 12px;
+  color: #777;
+}
+footer .links {
+  line-height: 20px;
+}
+.lang {
+  margin-top: 10px;
+}

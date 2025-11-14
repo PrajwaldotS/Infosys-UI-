@@ -1,0 +1,8 @@
+let a,b,c;
+a=2;
+b=3;
+c=8;
+console.log("the value of C is "+c+".");
+a=2;
+b=3;
+c=a+b;
