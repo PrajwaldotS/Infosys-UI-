@@ -4,28 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script>
-     let Mul = prompt("enter the num");
-     var Mulnum = parseInt(Mul)
-     
-    for(let i=1;i<=10;i++){
-        value = Mulnum * i;
-        if(value%5 === 0 && value%3 === 0 ){
-            value = "fizzbuzz"
-        }
-        else if(value%3 === 0){
-            value = "fizz"
-        }
-        else if(value%5 === 0){
-            value = "buzz"
-        }
-        console.log(Mulnum + "*" + i + "=" + value)
-    
-    }
-
-</script>
 </head>
 <body>
-    
+    <form action="" onsubmit="submit()">
+        <button type="submit">Submit</button>
+    </form>
+    <script>
+    function submit(){
+        
+        alert("form submit")
+    }
+</script>
 </body>
+
 </html>
